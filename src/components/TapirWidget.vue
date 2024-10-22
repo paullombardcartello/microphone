@@ -1,6 +1,5 @@
 <template>
   <div class="text-center font-sans w-96 mx-auto rounded-lg shadow-lg border-solid border-2 p-8">
-    <h2 class="font-bold text-2xl">Record Audio Message</h2>
     <div>
       <icon-button
         :style="{ 'border-color': buttonColor }"
@@ -40,7 +39,7 @@ import "../styles/app.css";
 import IconButton from "./IconButton.vue";
 import SubmitButton from "./SubmitButton.vue";
 
-const INSTRUCTION_MESSAGE = "Click icon to start recording message.";
+const INSTRUCTION_MESSAGE = "";
 const INSTRUCTION_MESSAGE_STOP = "Click icon again to stop recording.";
 const ERROR_MESSAGE =
   "Failed to use microphone. Please refresh and try again and permit the use of a microphone.";
